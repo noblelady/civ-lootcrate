@@ -30,9 +30,8 @@ end
 
 -- choose random # of items and random items
 local function GetRandomLootItems()
-  local maxLoot = 4
   local lootItems = {}
-  local randomAmt = math.random(1, maxLoot)
+  local randomAmt = math.random(1, Config.MaxLootItems)
 
   for i=1, randomAmt do
     table.insert(lootItems, Config.LootItems[math.random(1, #Config.LootItems)])

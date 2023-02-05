@@ -15,3 +15,5 @@ Config.LootItems = {
   [4] = "WEAPON_APPISTOL",
   [5] = "WEAPON_HEAVYPISTOL",
 }
+
+Config.MaxLootItems = 4
